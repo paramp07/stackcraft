@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(219, 219, 219, 0.688);
+}
+
+a {
+  color: rgb(203, 203, 203);
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+}
+
+.sidemenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1C1D20;
+  width: 250px;
+  height: 100vb;
+}
+
+.nav img {
+  width: 15%;
+
+}
+
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 35px auto 10px auto;
+}
+
+.logo {
+  filter:
+  
+  invert(100%);
+}
+
+ hr {
+  height: 2px;
+  background-color: #ffffff;
+  border: none;
+  width: 85%;
+  margin-top: 15px;
+  opacity: 30%;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom p {
+  margin: 0;
+  color: white;
+  opacity: 40%;
+  font-size: .85rem;
+}
+
+.socials {
+  margin-left: .5rem;
+  margin-bottom: 3rem;
+}
+
+
+.social-logo img {
+  width: 16px;
+  filter:
+  
+  invert(70%);
+  margin-right: 0px;
+}
+
+.social-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  background-color: rgb(74, 74, 74);
+  border-radius: 10px;
+  border: 2px solid rgb(157, 157, 157);
+  transition: all ease .4s;
+}
+
+.socials a:hover .social-logo {
+  height: 36px;
+  width: 36px;
+  background-color: rgb(35, 35, 42);
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin: 8px 0 ;
+}
+
+.social-link p {
+  color: rgb(200, 200, 200);
+}
+
+.footer {
+  align-content: left;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+  
+}
+
+.socials > p {
+  color: rgb(208, 208, 208);
+  font-size: .8rem;
+  margin: 0;
+}
+
+.social-link p {
+  margin: 0;
+  font-size: .8rem;
+}
+
+.user-info img {
+  width: 25px;
+}
+
+
+
+.user hr {
+  margin: 0 auto 0 auto;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile h4 {
+  margin: 0;
+  color: rgb(226, 224, 224);
+  font-weight: 200;
+}
+
+.cover-circle {
+  background-color: rgb(216, 216, 216);
+  border-radius: 3px;
+  height: 26px;
+  width: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cover-circle img {
+  width: 20px;
+}
+
+.socials a {
+  cursor: pointer;
+}
+
+.main {
+  background-color: #fafaff;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #efeffd 90px ), repeating-linear-gradient( #f3f4fa55, #f3f4fa );
+  width: 100%;
+}
+
+
+opacity: 1;
+
